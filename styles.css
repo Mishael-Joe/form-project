@@ -1,0 +1,85 @@
+:root {
+    --primary-color: rgba(15, 212, 15, 0.62);
+    --secordary-color: white;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.log {
+    display: flex;
+    background: whitesmoke;
+}
+
+.log .container {
+    width: 60%;
+}
+
+.container {
+    padding: 3rem;
+
+}
+
+#account {
+    font-size: bold;
+}
+
+#green-text {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.log .container .form {
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.log .container .form h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+
+.log img {
+    height: 100%;
+    width: 100%;
+}
+
+.log .container .form input[type="email"],
+.log .container .form input[type="password"] {
+    width: 50%;
+    height: 7%;
+    margin-top: 2rem;
+    padding: 10px;
+    border: var(--secordary-color);
+    border-radius: 5px;
+}
+
+.log .container .form #btn {
+    width: 50%;
+    height: 5%;
+    margin-top: 2rem;
+    background: var(--primary-color);
+    border: var(--secordary-color);
+    border-radius: 5px;
+}
+
+.log .container .form h5 {
+    padding: 3rem;
+}
+
+.log .container .form #btn-1 {
+    width: 30%;
+    height: 7%;
+    border: var(--secordary-color);
+    border-radius: 5px;
+    font-size: large;
+}
+
+.log .container .form #btn-1:hover {
+    border: var(--primary-color) solid 2px;
+    border-radius: 5px;
+}
